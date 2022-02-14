@@ -232,7 +232,7 @@ class AccountMove(models.Model):
                     factura.certificador_fel = "ecofactura"
                 else:
                     factura.error_certificador(resultado)
-                    return False
+                    return False 
 
                 return True
 
