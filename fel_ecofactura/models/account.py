@@ -105,6 +105,7 @@ class AccountMove(models.Model):
                 TrnCampAd11 = etree.SubElement(stdTWS, "TrnCampAd11")
                 TrnCampAd12 = etree.SubElement(stdTWS, "TrnCampAd12")
                 TrnCampAd13 = etree.SubElement(stdTWS, "TrnCampAd13")
+                TrnCampAd13.text = str(factura.partner_id.name)
                 TrnCampAd14 = etree.SubElement(stdTWS, "TrnCampAd14")
                 TrnCampAd15 = etree.SubElement(stdTWS, "TrnCampAd15")
                 TrnCampAd16 = etree.SubElement(stdTWS, "TrnCampAd16")
