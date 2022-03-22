@@ -107,6 +107,7 @@ class AccountMove(models.Model):
                 TrnCampAd13 = etree.SubElement(stdTWS, "TrnCampAd13")
                 TrnCampAd13.text = str(factura.partner_id.name)
                 TrnCampAd14 = etree.SubElement(stdTWS, "TrnCampAd14")
+                TrnCampAd14.text = "POR CHEQUÉ RECHAZADO SE COBRARÁ Q. 100.00 POR GASTOS ADMINISTRATIVOS"
                 TrnCampAd15 = etree.SubElement(stdTWS, "TrnCampAd15")
                 TrnCampAd16 = etree.SubElement(stdTWS, "TrnCampAd16")
                 TrnCampAd17 = etree.SubElement(stdTWS, "TrnCampAd17")
